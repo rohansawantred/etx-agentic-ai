@@ -22,7 +22,7 @@ data:
       - provider_id: vllm
         provider_type: "remote::vllm"
         config:
-          url: "http://granite-31-2b-instruct.vllm-server.svc.cluster.local/v1"
+          url: "https://granite-31-2b-instruct.vllm-server.svc.cluster.local/v1"
           name: llama3.2:1b
           context_length: 4096
           tls_verify: false
