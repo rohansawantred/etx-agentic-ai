@@ -45,7 +45,7 @@ data:
       - provider_id: vllm
         provider_type: "remote::vllm"
         config:
-          url: "https://granite-31-2b-instruct.vllm-server.svc.cluster.local/v1"
+          url: "https://granite-31-2b-instruct-vllm-server.apps.ocp.8szvv.sandbox1965.opentlc.com/v1"
           name: llama3.2:1b
           context_length: 4096
           tls_verify: false
