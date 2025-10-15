@@ -159,14 +159,14 @@ collector:
             - debug
             - otlphttp/dev
       telemetry:
-          metrics:
-            level: basic
-            readers:
-            - pull:
-                exporter:
-                  prometheus:
-                    host: 0.0.0.0
-                    port: 8888
+        metrics:
+          level: basic
+          readers:
+          - pull:
+              exporter:
+                prometheus:
+                  host: 0.0.0.0
+                  port: 8888
 
 # Tempo configuration for exporters
 tempo:
