@@ -26,4 +26,4 @@ policyDefaults:
 policies:
   - name: mcp-openshift-sno
     manifests:
-      - path: sno/
+      - path: mcp-openshift/
